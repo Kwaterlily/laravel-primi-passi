@@ -64,22 +64,21 @@
         </style>
     </head>
     <body>
-    <div class="content">
-                <div class="title m-b-md">
-                    {{ $jumbotron }}
-                </div>
+        <div class="content">
+            <div class="title m-b-md">
+                {{ $jumbotron }}
+            </div>
 
-                <div class="links">
-                    <a href="{{url('/admin') }}">home</a>
-                    <a href="{{url('/admin') }}">products</a>
-                    <a href="{{url('/admin') }}">News</a>
-                    <a href="{{url('/admin') }}">media</a>
-                    <a href="{{url('/admin') }}">bio</a>
-                    <a href="{{url('/admin') }}">blog</a>
-                    <a href="{{url('/admin') }}">contacts</a>
-                    <a href="{{url('/admin') }}">about</a>
-                </div>
-            </div>  
+            <div class="links">
+                <a href="{{url('/admin') }}">home</a>
+                <a href="{{url('/admin') }}">products</a>
+                <a href="{{url('/admin') }}">News</a>
+                <a href="{{url('/admin') }}">media</a>
+                <a href="{{url('/admin') }}">bio</a>
+                <a href="{{url('/admin') }}">blog</a>
+                <a href="{{url('/admin') }}">contacts</a>
+                <a href="{{url('/admin') }}">about</a>
+            </div> 
         </div>
     </body>
 </html>
